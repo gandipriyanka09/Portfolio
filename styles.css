@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #007; 
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+section {
+    padding: 60px 20px;
+    margin-top: 60px;
+}
+
+section h2 {
+    color: #007; 
+    border-bottom: 2px solid #007; 
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    color: #007; 
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li h3 {
+    margin: 5px 0;
+    color: #007; 
+}
+
+ul li p {
+    margin: 5px 0;
+    color: #666;
+}
+
+footer {
+    background-color: #007; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #007;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #333;
+}
+.home-background {
+    background: url('back1.jpg') no-repeat center center fixed; /* Add your background image here */
+    background-size: cover;
+    color: white;
+}
+.profile-photo {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Display as circle */
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
